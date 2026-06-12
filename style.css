@@ -1,0 +1,234 @@
+/* 1. GLOBAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #0f0f0f;
+    background-color: #fff;
+}
+
+a {
+    color: #065fd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 2. TOP NAV */
+#top-nav {
+    padding: 10px 16px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.nav-table {
+    border-collapse: collapse;
+}
+
+.nav-logo {
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.nav-search {
+    text-align: center;
+}
+
+#search-input {
+    height: 34px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    outline: none;
+    width: 300px;
+}
+
+#search-input:focus {
+    border-color: #065fd4;
+}
+
+#search-btn {
+    height: 34px;
+    padding: 0 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.nav-icons {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* 3. DIVIDERS */
+.nav-divider {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 0;
+}
+
+.section-divider {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 16px 0;
+}
+
+/* 4. MAIN CONTENT */
+#main-content {
+    padding: 16px;
+    vertical-align: top;
+}
+
+/* 5. VIDEO SECTION */
+#video-section {
+    padding-right: 24px;
+}
+
+#video-player {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 12px;
+}
+
+#video-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 10px 0 6px 0;
+}
+
+#video-views {
+    color: #606060;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+#video-actions {
+    font-size: 14px;
+    color: #0f0f0f;
+    margin-bottom: 12px;
+}
+
+/* 6. CHANNEL */
+.channel-table {
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+.channel-table td {
+    padding: 4px 8px 4px 0;
+    vertical-align: middle;
+}
+
+.channel-name {
+    font-size: 14px;
+}
+
+.channel-meta {
+    color: #606060;
+}
+
+.subscribe-btn {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+/* 7. DESCRIPTION */
+#video-description {
+    font-size: 13px;
+    color: #0f0f0f;
+    margin: 10px 0 6px 0;
+    line-height: 1.6;
+}
+
+.show-more-link {
+    font-size: 12px;
+    font-weight: 700;
+    color: #606060;
+}
+
+/* 8. COMMENTS */
+#comments-heading {
+    font-size: 1rem;
+    margin-bottom: 14px;
+}
+
+.comment-table {
+    border-collapse: collapse;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.comment-table td {
+    padding: 4px 8px 4px 0;
+}
+
+.comment-username {
+    font-size: 13px;
+}
+
+.comment-date {
+    color: #606060;
+}
+
+.comment-text {
+    font-size: 13px;
+    margin: 4px 0 6px 0;
+    line-height: 1.5;
+}
+
+/* 9. SIDEBAR */
+#sidebar {
+    padding-left: 16px;
+    vertical-align: top;
+}
+
+#upnext-heading {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #606060;
+}
+
+.suggested-table {
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.suggested-table td {
+    padding: 0 8px 0 0;
+    vertical-align: top;
+}
+
+.suggested-thumbnail {
+    display: block;
+    border-radius: 4px;
+}
+
+.suggested-info {
+    color: #0f0f0f;
+    line-height: 1.5;
+}

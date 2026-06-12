@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP NAV -->
+    <div id="top-nav">
+        <table width="100%" class="nav-table">
+            <tr>
+                <td class="nav-logo">
+                    &#9776;
+                    <b><font color="red">You</font>Tube</b>
+                </td>
+                <td class="nav-search">
+                    <input type="text" size="40" placeholder="Search" id="search-input">
+                    <input type="submit" value="&#128269;" id="search-btn">
+                </td>
+                <td class="nav-icons">
+                    &#9707; &#9881;
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" width="30" class="avatar-img">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr class="nav-divider">
+
+    <!-- MAIN CONTENT -->
+    <table width="100%" id="main-content">
+        <tr>
+
+            <!-- LEFT: VIDEO PLAYER + INFO -->
+            <td width="70%" valign="top" id="video-section">
+
+                <!-- VIDEO EMBED -->
+                <iframe
+                    id="video-player"
+                    width="640"
+                    height="360"
+                    src="https://www.youtube.com/embed/YykjpeuMNEk"
+                    title="Diana Princess of Wales Documentary"
+                    allowfullscreen>
+                </iframe>
+
+                <!-- VIDEO TITLE -->
+                <h3 id="video-title">Diana, Princess of Wales - Life and Legacy Documentary</h3>
+                <p id="video-views">2,903,199 views</p>
+
+                <!-- ACTIONS -->
+                <p id="video-actions">
+                    &#128077; <b>11K</b>
+                    &#128078; 302
+                    &#8658; SHARE
+                    &#8942;
+                </p>
+
+                <hr class="section-divider">
+
+                <!-- CHANNEL INFO -->
+                <table class="channel-table">
+                    <tr>
+                        <td>
+                            <img src="https://www.w3schools.com/howto/img_avatar.png" width="40" class="avatar-img">
+                        </td>
+                        <td class="channel-info">
+                            <b class="channel-name">BBC Documentary</b> &#9989; <br>
+                            <small class="channel-meta">Published on 31 Aug 2022
+                                <input type="submit" value="SUBSCRIBED 5M" class="subscribe-btn">
+                                &#128276;
+                            </small>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- DESCRIPTION -->
+                <p id="video-description">
+                    A full documentary exploring the life, compassion, and legacy of
+                    Diana, Princess of Wales. From her childhood in Norfolk to her
+                    humanitarian work and her tragic death in 1997.
+                </p>
+                <p><a href="#" class="show-more-link">SHOW MORE</a></p>
+
+                <hr class="section-divider">
+
+                <!-- COMMENTS SECTION -->
+                <h3 id="comments-heading">Comments</h3>
+
+                <table class="comment-table">
+                    <tr>
+                        <td valign="top">
+                            <img src="https://www.w3schools.com/howto/img_avatar.png" width="35" class="avatar-img">
+                        </td>
+                        <td class="comment-body">
+                            <b class="comment-username">@john_nairobi</b> <small class="comment-date">2 days ago</small><br>
+                            <p class="comment-text">She was truly the people's princess. No one like her.</p>
+                            &#128077; 340 &#128078; Reply
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="comment-table">
+                    <tr>
+                        <td valign="top">
+                            <img src="https://www.w3schools.com/howto/img_avatar.png" width="35" class="avatar-img">
+                        </td>
+                        <td class="comment-body">
+                            <b class="comment-username">@grace_wanjiku</b> <small class="comment-date">5 days ago</small><br>
+                            <p class="comment-text">I cry every time I watch anything about Diana. What a legacy she left behind.</p>
+                            &#128077; 210 &#128078; Reply
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="comment-table">
+                    <tr>
+                        <td valign="top">
+                            <img src="https://www.w3schools.com/howto/img_avatar.png" width="35" class="avatar-img">
+                        </td>
+                        <td class="comment-body">
+                            <b class="comment-username">@dev_derick</b> <small class="comment-date">1 week ago</small><br>
+                            <p class="comment-text">Her landmine campaign alone changed the world. Remarkable woman.</p>
+                            &#128077; 180 &#128078; Reply
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+
+            <!-- RIGHT: UP NEXT -->
+            <td width="30%" valign="top" id="sidebar">
+
+                <p id="upnext-heading"><b>Up next</b> AUTOPLAY</p>
+
+                <table class="suggested-table">
+                    <tr>
+                        <td>
+                            <img src="https://img.youtube.com/vi/YykjpeuMNEk/default.jpg" width="120" class="suggested-thumbnail">
+                        </td>
+                        <td valign="top" class="suggested-info">
+                            <small><b>Diana's Most Emotional Moments</b><br>
+                            BBC Archives<br>
+                            1.2M views - 3 years ago</small>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="suggested-table">
+                    <tr>
+                        <td>
+                            <img src="https://img.youtube.com/vi/YykjpeuMNEk/default.jpg" width="120" class="suggested-thumbnail">
+                        </td>
+                        <td valign="top" class="suggested-info">
+                            <small><b>Diana's Landmine Campaign - Angola 1997</b><br>
+                            Reuters Archive<br>
+                            890K views - 5 years ago</small>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="suggested-table">
+                    <tr>
+                        <td>
+                            <img src="https://img.youtube.com/vi/YykjpeuMNEk/default.jpg" width="120" class="suggested-thumbnail">
+                        </td>
+                        <td valign="top" class="suggested-info">
+                            <small><b>The Royal Wedding 1981 - Full Ceremony</b><br>
+                            Royal Family Channel<br>
+                            4.5M views - 8 years ago</small>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="suggested-table">
+                    <tr>
+                        <td>
+                            <img src="https://img.youtube.com/vi/YykjpeuMNEk/default.jpg" width="120" class="suggested-thumbnail">
+                        </td>
+                        <td valign="top" class="suggested-info">
+                            <small><b>Princess Diana's Panorama Interview 1995</b><br>
+                            BBC News<br>
+                            7.1M views - 10 years ago</small>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
