@@ -39,6 +39,10 @@ a:hover {
     white-space: nowrap;
 }
 
+.youtube-red {
+    color: red;
+}
+
 .nav-search {
     text-align: center;
 }
